@@ -1,8 +1,11 @@
-require './Node.rb'
+require './lib/Node.rb'
 
 class Linked_list
-  def initialize(val)
-    @root = Node.new(val)
+
+  attr_reader :@root
+
+  def initialize
+    @root = Node.new(nil)
   end
 
   def append(data)
@@ -12,6 +15,7 @@ class Linked_list
     end
     toAdd = Node.new(data)
     curr.setNext(toAdd)
+    toAdd
   end
 
   def pop
@@ -23,6 +27,19 @@ class Linked_list
     while curr.getNext
       curr = curr.getNext
     end
-    curr.setNext
+    curr.setNext(nil)
   end
+
+  def to_s
+    toReturn = ""
+    curr = @root.getNext
+    while curr != nil
+      toReturn += "#{curr.getData}, "
+      curr = curr.getNext
+    end
+    toReturn
+  end
+
 end
+
+
