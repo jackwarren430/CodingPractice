@@ -1,0 +1,48 @@
+==========first list
+1
+2
+3
+4
+5
+6
+7
+8
+==========removed 1
+2
+3
+4
+5
+6
+7
+8
+==========removed 6
+2
+3
+4
+5
+7
+8
+==========removed 8
+2
+3
+4
+5
+7
+==========reversed linked list
+7
+5
+4
+3
+2
+==========new list
+1
+2
+==========reversed
+2
+1
+==========removed 2
+1
+==========reversed again
+1
+==========removed 1
+
