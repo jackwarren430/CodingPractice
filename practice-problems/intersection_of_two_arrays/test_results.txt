@@ -1,0 +1,10 @@
+Intersection of nums1 and nums2:
+
+nums1:
+[1, 6, 3, 7, 4, 6, 2]
+
+nums2:
+[7, 3, 7, 2, 8]
+
+intersection:
+[7, 3, 2]
