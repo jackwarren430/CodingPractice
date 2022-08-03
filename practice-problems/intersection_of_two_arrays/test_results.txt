@@ -6,8 +6,14 @@ nums1:
 nums2:
 [15, 7, 15, 3, 7, 15, 15, 2, 8]
 
+nums3:
+[15, 3, 7, 4, 17, 7, 8, 3, 2]
+
 intersection:
 [15, 7, 3, 2]
 
 Intersection of nums1 and nums2 including repeating values:
 [15, 15, 15, 3, 7, 7, 2]
+
+Intersection of nums1, nums2, and nums3:
+[15, 3, 7, 2]
