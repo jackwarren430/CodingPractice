@@ -1,0 +1,18 @@
+
+------Test 1------
+Integer array: [6, 2]
+Target: 8
+
+Result: [0, 1]
+
+------Test 2------
+Integer array: [5, 3, 10, 6, 4, 9]
+Target: 7
+
+Result: [1, 4]
+
+------Test 3------
+Integer array: [5, -2, -9, 8, 3, -7, 2]
+Target: -2
+
+Result: [0, 5]
