@@ -1,16 +1,4 @@
 public class MatrixToRREF {
-	public static void main(String[] args) {
-		double[][] matrix = {{22.00, 53.00, 35.00, 23.00}, {68.00, 12.00, 71.00, 85.00}, {47.00, 65.00, 9.00, 18.00}};
-		
-		RREF(matrix);
-
-		for (double[] i : matrix){
-			for (double j : i){
-				System.out.print(j + ", ");
-			}
-			System.out.println();
-		}
-	}
 
 	public static void RREF(double[][] matrix){
 		int rows = matrix.length;
